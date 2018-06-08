@@ -1,6 +1,6 @@
 body {
     font-family: 'Abel', sans-serif;
-    background-color: #eee;
+    background-color: #f0f0f0;
 }
 
 
@@ -29,6 +29,55 @@ body {
 
 #hd1, #hd2, #hd3, #hd4, #hd5 {
     font-family: 'Anton', sans-serif;
+}
+
+.circle-large {
+    display: table-cell;
+    height: 175px;
+    width: 175px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 10px solid white;
+    color: white;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle-small {
+    display: table-cell;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    font-size: 12px;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle-red {
+    background: #e6563b;
+}
+
+.circle-yellow {
+    background: #eb9d3a;
+}
+
+.circle-green {
+    background: #7cb06c;
+}
+
+.circle-blue {
+    background: #00aba9;
+}
+
+.space {
+    height: 150px;
+    width: 100%;
+}
+
+.img-border {
+    border: 5px solid #e6e6e6;
 }
 
 

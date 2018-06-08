@@ -27,6 +27,9 @@ body {
     font-size: 40px;
 }
 
+#hd3{
+    font-size: 32px;
+}
 #hd1, #hd2, #hd3, #hd4, #hd5 {
     font-family: 'Anton', sans-serif;
 }
@@ -80,7 +83,20 @@ body {
     border: 5px solid #e6e6e6;
 }
 
+.small-img {
+    height: 80px;
+    width: 50px;
+    padding-top: 9px;
+}
 
+.fa-twitter {
+    color: rgba(73,160,236);
+    font-size: 25px;
+}
+
+.last-tweet {
+    vertical-align: top;
+}
 @media only screen and (min-width: 600px) {
 
 }

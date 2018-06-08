@@ -1,11 +1,35 @@
 body {
     font-family: 'Abel', sans-serif;
+    background-color: #eee;
 }
 
+
+.wsbg {
+    background-color: #fff;
+    height: 50px;
+    position: absolute;
+    top: 70%;
+
+
+}
 .cd-font {
     font-size: 250%;
+    clear: both;
 }
 
+#hd1 {
+    font-size: 55px;
+
+
+}
+
+#hd2 {
+    font-size: 40px;
+}
+
+#hd1, #hd2, #hd3, #hd4, #hd5 {
+    font-family: 'Anton', sans-serif;
+}
 
 
 @media only screen and (min-width: 600px) {

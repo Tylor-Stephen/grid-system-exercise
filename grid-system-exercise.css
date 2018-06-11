@@ -265,4 +265,18 @@ body {
     .circle-spacing4 {
         padding-right: 2rem;
     }
+
+    .hd3 {
+        font-size: 19px;
+    }
+
+    .small-img {
+        height: 50px;
+        width: 60px;
+    }
+
+    .paragraph {
+        padding-right: 25px;
+        font-size: 12px;
+    }
 }

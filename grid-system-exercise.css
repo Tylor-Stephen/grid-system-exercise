@@ -102,19 +102,19 @@ body {
 }
 
 .circle-spacing1 {
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1.5rem;
 }
 
 .circle-spacing2 {
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .circle-spacing3 {
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1.5rem;
 }
 
 .circle-spacing4 {
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -153,19 +153,20 @@ body {
     }
 
     .circle-spacing1 {
-        padding: 0rem;
+        padding: 0;
+        float: right;
     }
 
     .circle-spacing2 {
-        padding: 0rem 0rem 0rem .25rem;
+        padding: 0 0 0 .25rem;
     }
 
     .circle-spacing3 {
-        padding: 0rem 0rem 0rem .25rem;
+        padding: 0 0 0 .25rem;
     }
 
     .circle-spacing4 {
-        padding: 0rem 0rem 0rem .25rem;
+        padding: 0 0 0 .25rem;
     }
 
     .circle-large {
@@ -183,9 +184,85 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+    .logo {
+        width: 130px;
+        height: 130px;
+    }
 
+    .navigation-lg {
+        height: 80px;
+        font-size: x-large;
+    }
+
+    .cd-font {
+        bottom: 30px;
+        left: 200px;
+    }
+
+    .title {
+        padding-top: 80px;
+    }
+
+    .circle-spacing1 {
+        padding: 0;
+        float: none;
+    }
+
+    .circle-spacing2 {
+        padding: 0;
+    }
+
+    .circle-spacing3 {
+        padding: 0;
+    }
+
+    .circle-spacing4 {
+        padding: 0;
+    }
+
+    .hd3 {
+        font-size: 28px;
+    }
+
+    .small-img {
+        height: 70px;
+        width: 80px;
+    }
+
+    .paragraph {
+        padding-right: 25px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
+    .cd-font {
+        top: 35px;
+        left: 390px;
+    }
 
+    .logo1 {
+        left: 210px;
+        top: 5px;
+    }
+
+    .navigation-xl {
+        float: right;
+    }
+
+    .circle-spacing1 {
+        float: right;
+    }
+
+    .circle-spacing2 {
+        padding-right: 2.5rem;
+        float: right;
+    }
+
+    .circle-spacing3 {
+        padding-left: 2.5rem;
+    }
+
+    .circle-spacing4 {
+        padding-right: 2rem;
+    }
 }

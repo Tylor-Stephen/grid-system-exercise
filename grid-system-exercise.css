@@ -9,6 +9,7 @@ body {
 
 .white-bar {
     top: 20%;
+    left: 4px;
 }
 
 .white-stripe {
@@ -227,6 +228,10 @@ body {
     .small-img {
         height: 70px;
         width: 80px;
+    }
+
+    .featured {
+        font-size: 12px;
     }
 
     .paragraph {

@@ -3,12 +3,17 @@ body {
     background-color: #f0f0f0;
 }
 
+.logo {
+    width: 50%;
+}
+
 .white-bar {
     top: 20%;
 }
 
-.bg-white {
+.white-stripe {
     height: 100px;
+    background-color: white;
 }
 
 .cd-font {
@@ -16,18 +21,19 @@ body {
     clear: both;
 }
 
-#hd1 {
+.hd1 {
     font-size: 55px;
 }
 
-#hd2 {
+.hd2 {
     font-size: 40px;
 }
 
-#hd3{
+.hd3{
     font-size: 32px;
 }
-#hd1, #hd2, #hd3, #hd4, #hd5 {
+
+.hd1, .hd2, .hd3, .hd4, .hd5 {
     font-family: 'Anton', sans-serif;
 }
 
@@ -82,12 +88,12 @@ body {
 
 .small-img {
     height: 80px;
-    width: 50px;
+    width: 100px;
     padding-top: 9px;
 }
 
 .fa-twitter {
-    color: rgba(73,160,236);
+    color: rgba(73,160,236, 1);
     font-size: 25px;
 }
 
@@ -95,14 +101,85 @@ body {
     vertical-align: top;
 }
 
+.circle-spacing1 {
+    padding: 0rem 1rem 1rem 1rem;
+}
 
+.circle-spacing2 {
+    padding: 0rem 1rem 1rem 1rem;
+}
 
-@media only screen and (min-width: 600px) {
+.circle-spacing3 {
+    padding: 0rem 1rem 1rem 1rem;
+}
 
+.circle-spacing4 {
+    padding: 0rem 1rem 1rem 1rem;
 }
 
 @media only screen and (min-width: 768px) {
+    .cd-logo {
+        position: absolute;
+        top: 20px;
+    }
 
+    .grey-bar {
+        height: 50px;
+        color: #f0f0f0;
+    }
+
+    .navigation-md {
+        clear: both;
+        font-size: x-large;
+    }
+
+    .logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .title {
+        padding-top: 150px;
+    }
+
+    .circle-spacing {
+        padding-right: 2px;
+        margin: 0;
+    }
+
+    .small-img {
+        height: 100px;
+        width: 120px;
+    }
+
+    .circle-spacing1 {
+        padding: 0rem;
+    }
+
+    .circle-spacing2 {
+        padding: 0rem 0rem 0rem .25rem;
+    }
+
+    .circle-spacing3 {
+        padding: 0rem 0rem 0rem .25rem;
+    }
+
+    .circle-spacing4 {
+        padding: 0rem 0rem 0rem .25rem;
+    }
+
+    .circle-large {
+        display: table-cell;
+        height: 125px;
+        width: 125px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        border: 7px solid white;
+        color: white;
+        font-size: 25px;
+        font-family: 'Anton', sans-serif;
+    }
 }
 
 @media only screen and (min-width: 992px) {
